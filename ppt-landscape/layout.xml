@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onlaunch="launch">
+    <row weight="12">
+        <button icon="left" ontap="previous" />
+        <image id="preview_curr" color="black" weight="12" ontap="next" />
+    </row>
+</layout>

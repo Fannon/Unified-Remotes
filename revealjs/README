@@ -1,0 +1,15 @@
+Basic Template
+==============
+
+1) meta.prop
+   The meta file describes some basic information about the remote.
+   
+   
+2) layout.xml
+   The layout file defines how the remote will look. 
+   Typically this will be some rows of controls.
+   
+   
+3) remote.lua
+   The remote file defines what each control should do. 
+   Note how the value in the ontap fields correspond to action names.

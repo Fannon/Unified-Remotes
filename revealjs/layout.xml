@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onlaunch="launch">
+  <row weight="wrap">
+  </row>
+  <row>
+    <button icon="refresh" onTap="refresh" />
+    <button icon="select" onTap="escape" />
+    <button text="BLACK" onTap="black" />
+  </row>
+  <row>
+    <button icon="up" onTap="up" />
+  </row>
+  <row>
+    <button icon="left" onTap="left" />
+    <button icon="right" onTap="right" />
+  </row>
+  <row>
+    <button icon="down" onTap="down" />
+  </row>
+</layout>

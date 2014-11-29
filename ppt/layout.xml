@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onlaunch="launch">
+  <row weight="3">
+    <image id="preview_curr" color="black" ontap="next" />
+  </row>
+   <row weight="wrap">
+      <button text="WHITE" onTap="white" />
+      <button text="BLACK" onTap="black" />
+    </row>
+  <row weight="3">
+    <button icon="left" ontap="previous" />
+    <button icon="right" ontap="next" />
+  </row>
+</layout>
