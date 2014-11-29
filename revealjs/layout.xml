@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout onlaunch="launch">
-  <row weight="wrap">
-  </row>
+
   <row>
     <button icon="refresh" onTap="refresh" />
     <button icon="select" onTap="escape" />
