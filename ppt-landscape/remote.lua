@@ -101,30 +101,3 @@ actions.white = function ()
         obj.ActivePresentation.SlideShowWindow.View.State = 4; -- 4=white
     end
 end
-
-
-------------------------
--- OLD STYLE COMMANDS --
-------------------------
-
---@help Navigate left
-actions.left = function()
-    keyboard.stroke("left");
-    update();
-end
-
---@help Navigate right
-actions.right = function()
-    keyboard.stroke("right");
-    update();
-end
-
---@help Show black screen
-actions.b = function()
-    keyboard.stroke("B");
-end
-
---@help Show white screen
-actions.w = function()
-    keyboard.stroke("W");
-end
